@@ -1,0 +1,156 @@
+body {
+background-color:#ffffff;
+margin:0px;
+color:#777777;
+font-family: "Century Gothic",Trebuchet MS;
+}
+
+.heading {
+    color: #f90;
+    font-family: "Century Gothic",Trebuchet MS;
+padding: 20px;
+display: block;
+font-size: 40px;
+text-align: right;
+}
+
+p  {
+    color: black;
+    font-family: courier;
+    font-size: 100%;
+    border-bottom: 1px solid black;
+    padding: 30px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+div .para
+{
+
+padding:20px;
+}
+
+.Frontphoto{
+border: 1px solid #fff;	
+
+}
+
+#banner {
+width: 100%;
+height:500px;
+display:block;
+background-color:#333;
+}
+
+#banner.home
+{
+background-image: url("Images/prayerwheels.jpg");
+background-repeat: no-repeat;
+background-position: 70% 40%; 
+}
+#banner.about
+{
+background-image: url("Images/kumari.jpg");
+background-repeat: no-repeat;
+background-position: 70% 40%; 
+}
+
+#banner.placestosee
+{
+background-image: url("Images/mount.jpg");
+background-repeat: no-repeat;
+background-position: 0% 0%; 
+}
+
+#banner.thingstodo
+{
+background-image: url("Images/rafting.jpg");
+background-repeat: no-repeat;
+background-position: 70% 0%; 
+}
+
+#container{
+
+padding:0px;
+
+}
+
+.splash{
+
+height: 400px;
+background-color:#ccc;
+padding: 30px;
+
+}
+
+.caption{
+color: #fff;
+font-family: "Century Gothic";
+padding: 20px;
+font-style: italic;
+display: block;
+background: rgba(0,0,0,0.5);
+width: 97%;
+}
+
+
+.subheading{
+
+color: #51a126;
+text-align: center;
+width: 100%;
+display: block;
+font-size:30px;
+
+}
+
+#floater{
+float:right;
+margin-top:0px;
+font-size:12px;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #51a126;
+}
+
+nav .active {
+    background-color: #4CAF50;
+}
+
+#places h2{
+ color: #51a126;
+}
+
+#todo h2 {
+color: #51a126;
+}
+
+footer {
+background-color: #333;
+text-align:center;
+}
