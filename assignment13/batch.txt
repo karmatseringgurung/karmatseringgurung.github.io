@@ -1,4 +1,0 @@
-use gurungkarm_assgn13;
-show tables;
-select * from personalInfo;
-
